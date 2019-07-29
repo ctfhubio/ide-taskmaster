@@ -18,13 +18,15 @@ const worker = (message: Message, done: (message: Message, output: IJobResult) =
 
   const LANG_CONFIG = config.WORKER.LANG[job.lang];
 
+  const sourceCodeFilename = path.join(jobExecutionPath, LANG_CONFIG.SOURCE_FILE);
   fs.writeFileSync(
-    path.join(jobExecutionPath, LANG_CONFIG.SOURCE_FILE),
+    sourceCodeFilename,
     (new Buffer(job.source, 'base64')).toString('ascii')
   );
 
+  const stdinFilename = path.join(jobExecutionPath, 'run.stdin');
   fs.writeFileSync(
-    path.join(jobExecutionPath, 'run.stdin'),
+    stdinFilename,
     (new Buffer(job.stdin, 'base64')).toString('ascii')
   );
 
