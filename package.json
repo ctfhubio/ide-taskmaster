@@ -15,7 +15,7 @@
     "@types/dotenv": "^6.1.1",
     "@types/mkdirp": "^0.5.2",
     "@types/mocha": "^5.2.7",
-    "@types/shelljs": "^0.8.5",
+    "@types/shelljs": "^0.8.8",
     "chai": "^4.2.0",
     "mocha": "^8.0.1",
     "nodemon": "^2.0.4",
