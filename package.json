@@ -13,7 +13,7 @@
   "devDependencies": {
     "@types/chai": "^4.2.4",
     "@types/dotenv": "^6.1.1",
-    "@types/mkdirp": "^0.5.2",
+    "@types/mkdirp": "^1.0.1",
     "@types/mocha": "^5.2.7",
     "@types/shelljs": "^0.8.5",
     "chai": "^4.2.0",
