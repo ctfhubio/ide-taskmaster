@@ -1,5 +1,7 @@
 # IDE Taskmaster
 
+![CodeFactor](https://www.codefactor.io/Content/badges/APlus.svg)
+
 ![Linter and Tests](https://github.com/ctfhubio/ide-taskmaster/workflows/Linter%20and%20Tests/badge.svg)
 ![Build and Deploy](https://github.com/ctfhubio/ide-taskmaster/workflows/Build%20and%20Deploy/badge.svg)
 
