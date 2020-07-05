@@ -19,7 +19,7 @@ variable "private_subnet_cidr" {
 }
 
 variable "machine_type" {
-  default = "n1-standard-1"
+  default = "n1-standard-2"
 }
 
 variable "instance_service_account" {
@@ -31,7 +31,7 @@ variable "min_replica" {
 }
 
 variable "max_replica" {
-  default = 5
+  default = 2
 }
 
 variable "cool_down_period" {
@@ -43,7 +43,7 @@ variable "max_unavailable_fixed" {
 }
 
 variable "max_surge_fixed" {
-  default = 1
+  default = 2
 }
 
 variable "ide_tasks_name" {
