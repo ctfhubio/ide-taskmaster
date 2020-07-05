@@ -23,7 +23,7 @@
     "typescript": "^3.6.4"
   },
   "dependencies": {
-    "@google-cloud/error-reporting": "^1.1.2",
+    "@google-cloud/error-reporting": "^2.0.0",
     "@google-cloud/pubsub": "^0.30.3",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
